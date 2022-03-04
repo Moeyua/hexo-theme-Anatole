@@ -1,4 +1,5 @@
 .footer
+  script(async src= url_for('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'))
   a(target="_blank", href="/")
     span Theme by 
   a(href="https://www.caicai.me")  CaiCai 
@@ -6,3 +7,9 @@
   a(href="https://github.com/Ben02/hexo-theme-Anatole")  Ben
   .by_farbox
     a(href="https://hexo.io/zh-cn/", target="_blank") Proudly published with Hexo&#65281;
+  //- 加入不蒜子计数
+  a(target="_blank", href="/")
+    span(id="busuanzi_container_site_pv") view 
+      span(id="busuanzi_value_site_pv") 
+      span  times
+
